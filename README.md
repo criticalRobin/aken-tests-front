@@ -1,27 +1,23 @@
-# Test
+# Instrucciones para Configurar y Ejecutar el Frontend en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+## Requisitos Previos
 
-## Development server
+- Node.js y npm instalados.
+- Angular CLI instalado (`npm install -g @angular/cli`).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Configuración del Proyecto
 
-## Code scaffolding
+1. Clona el repositorio: `git clone https://github.com/tuusuario/turepositorio.git` y luego `cd turepositorio/frontend`.
+2. Instala las dependencias: `npm install`.
+3. Ejecuta el servidor de desarrollo: `ng serve`.
+4. Accede a la aplicación en `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Uso
 
-## Build
+El frontend consume el endpoint del backend (`http://127.0.0.1:8000/api/news/`) y muestra los datos de la noticia en una interfaz simple.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Resultado
 
-## Running unit tests
+Aquí puedes ver una captura de pantalla del resultado final:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/user-attachments/assets/47ab054d-20b0-4c62-97ae-be06b9f1d125)
